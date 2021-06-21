@@ -1,13 +1,18 @@
 package com.bridgelabz;
 
 public class NewLinkedList {
-    public INode head;
+    public static INode head;
     public INode tail;
 
     public NewLinkedList() {
         this.head = null;
         this.tail = null;
     }
+
+    public static INode head() {
+        return null;
+    }
+
 
     public void add(INode node) {
         if( this.tail == null){
