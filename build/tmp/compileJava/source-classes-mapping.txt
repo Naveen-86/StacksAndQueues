@@ -1,0 +1,8 @@
+com/bridgelabz/INode.java
+ com.bridgelabz.INode
+com/bridgelabz/NewLinkedList.java
+ com.bridgelabz.NewLinkedList
+com/bridgelabz/Node.java
+ com.bridgelabz.Node
+com/bridgelabz/StackClass.java
+ com.bridgelabz.StackClass
