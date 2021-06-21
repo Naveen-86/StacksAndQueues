@@ -24,9 +24,6 @@ public class StackClass {
         linkedList.printNodes();
     }
 
-    public void enqueue(Node<Integer> firstNode) {
-    }
-
     public byte lastestElementOfStack() {
         return 0;
     }

@@ -39,9 +39,9 @@ public class StackTest {
         Node<Integer> secondNode = new Node<>(30);
         Node<Integer> thirdNode = new Node<>(56);
         StackClass stack = new StackClass();
-        stack.enqueue(firstNode);
-        stack.enqueue(secondNode);
-        stack.enqueue(thirdNode);
+        stack.equals(firstNode);
+        stack.equals(secondNode);
+        stack.equals(thirdNode);
         stack.printStack();
         Assertions.assertEquals( stack.lastestElementOfStack(), firstNode);
     }

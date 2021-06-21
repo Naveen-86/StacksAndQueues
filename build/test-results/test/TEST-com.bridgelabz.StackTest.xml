@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.StackTest" tests="3" skipped="0" failures="1" errors="0" timestamp="2021-06-21T06:43:08" hostname="DESKTOP-0M348LP" time="0.073">
+<testsuite name="com.bridgelabz.StackTest" tests="3" skipped="0" failures="1" errors="0" timestamp="2021-06-21T06:52:54" hostname="DESKTOP-0M348LP" time="0.064">
   <properties/>
   <testcase name="given3Nums_IntoStack_WhenPopped_ShouldHaveLastAddedOut()" classname="com.bridgelabz.StackTest" time="0.056"/>
-  <testcase name="given3Nums_WhenEnqueued_ShouldBeLast()" classname="com.bridgelabz.StackTest" time="0.007">
+  <testcase name="given3Nums_WhenEnqueued_ShouldBeLast()" classname="com.bridgelabz.StackTest" time="0.005">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.bridgelabz.NewLinkedList.printNodes(NewLinkedList.java:109)
+	at com.bridgelabz.NewLinkedList.printNodes(NewLinkedList.java:104)
 	at com.bridgelabz.StackClass.printStack(StackClass.java:24)
 	at com.bridgelabz.StackTest.given3Nums_WhenEnqueued_ShouldBeLast(StackTest.java:45)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
