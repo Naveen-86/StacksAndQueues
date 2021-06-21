@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.StackTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-21T06:12:27" hostname="DESKTOP-0M348LP" time="0.057">
+<testsuite name="com.bridgelabz.StackTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-06-21T06:21:52" hostname="DESKTOP-0M348LP" time="0.051">
   <properties/>
-  <testcase name="given3Nums_WhenAdded_ShouldHaveLastAdded()" classname="com.bridgelabz.StackTest" time="0.057"/>
-  <system-out><![CDATA[Nodes: 56->30->70
+  <testcase name="given3Nums_IntoStack_WhenPopped_ShouldHaveLastAddedOut()" classname="com.bridgelabz.StackTest" time="0.047"/>
+  <testcase name="given3Nums_WhenAdded_ShouldHaveLastAdded()" classname="com.bridgelabz.StackTest" time="0.002"/>
+  <system-out><![CDATA[Nodes: 30->70
+Nodes: 56->30->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
